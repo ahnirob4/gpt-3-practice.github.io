@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+.bg{
+    background-color: #040C18;
+}
+
+.navbar-nav{
+    margin-left: 50px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Navbar End */
+
+/* cover Start */
+
+.cover-text{
+    font-size: 50px;
+    background: -webkit-linear-gradient(20deg,#AE67FA, #F49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.gpt-img{
+    min-height: 701.59px !important;
+    min-width: 667.41px !important;
+}
+
+.open-ai-text{
+    display: flex;
+    align-items: center;
+}
+
+.cover-text-small{
+    background: -webkit-linear-gradient(20deg,#719DCA, #6589AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+input[type="search"]{
+    min-width: 300px;
+    min-height: 60px;
+    background-color: #052D56;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 5px 0 0 5px;
+
+}
+
+::placeholder{
+    color: #3D6184;
+}
+
+.get-started-btn{
+    min-height: 60px;
+    min-width: 130px;
+    background-color: #FF4820;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
+    margin-left: -3px;
+}
+
+.people-text-small{
+    font-size: 12px;
+    position: relative;
+    left: -55px;
+}
+
+.group{
+    display: inline-block;
+}
+
+.Group-2{
+    margin: -13px;
+}
+
+.Group-3{
+    position: relative;
+    left: -1px;
+}
+
+
+.Group-4{
+    position: relative;
+    left: -15px;
+}
+
+.Group-5{
+    position: relative;
+    left: -28px;
+}
+
+.Group-6{
+    position: relative;
+    left: -40px;
+}
+
+.Group-7{
+    position: relative;
+    left: -52px;
+}
+
+.Group-8{
+    position: relative;
+    left: -64px;
+}
+
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* What is GPT-3 Start*/
+
+.content-bg{
+    background-color: #042C54;
+}
+
+.line-grad{
+    min-height: 5px;
+    width: 38px;
+    background-image: linear-gradient(to right,#AE67FA, #F49867);
+    margin-bottom: 10px;
+}
+
+.gpt-text{
+    font-size: 34px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(10deg,#AE67FA, #F49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gpt-text-2{
+    display: flex;
+    align-items: center;
+}
+
+.gpt-text-2 p{
+    color: #FF8A71;
+    font-size: 14px;
+}
+
+.p-text{
+    color: #81AFDD;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.feature-mar{
+    margin-top: 35px;
+}
+
+.feature-text{
+    
+    color: #81AFDD;
+}
+
+.row-mar{
+    padding: 120px 0  120px 0;
+}
+
+.gpt-text-3{
+    color: #688db1;
+}
+
+.gpt-text-4{
+    color: #FF8A71;
+}
+
+.feature-2-align{
+    display: flex;
+    align-items: flex-end;
+}
+
+.feature-2-pad{
+    padding-bottom: 150px;
+}
+
+/* Feature - 2 End */
+
+.cta{
+    min-height: 170px;
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(to right, #AE67FA, #F49867) ;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    border-radius: 10px;
+}
+
+.text-medium{
+    font-weight: 500;
+    color: #0E0E0E;
+}
+
+.text-extra-bold{
+    font-weight: 700;
+    color: #040C18;
+    font-size: 18px;
+}
+
+.get-started{
+    border-radius: 50px;
+    border: none;
+    background-color: #040C18;
+    padding: 9px 25px;
+}
+
+.container-padding{
+    padding-bottom: 100px;
+}
+
+/* CTA End */
+
+/* Blog Start */
+
+.gpt-text-5{
+    font-size: 50px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(20deg,#AE67FA, #F49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Blog Start */
+
+.rectangle{
+    background: none !important;
+    border: none !important;
+}
+
+.rectangle-txt-bg{
+    background-color: #042C54;
+}
+
+.txt-footer{
+    margin-top: 160px;
+}
+
+.footer-content{
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-btn{
+    text-align: center;
+}
+
+.content-btn h1{
+    font-size: 50px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(20deg,#AE67FA, #F49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.early-access-btn{
+    color: white;
+    background-color: none;
+    text-decoration: none !important;
+    border: 1px solid white;
+    padding: 15px 40px;
+}
+
+.early-access{
+    margin: 80px 0 50px 0;
+}
+
+.txt-pad a{
+    text-decoration: none !important;
+}
